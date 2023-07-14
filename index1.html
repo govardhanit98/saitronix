@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+  margin: 40px;
+}
+
+
+.divider {
+  display: flex;
+  
+  &:before,
+  &:after {
+    content: "";
+    flex: 1;
+  }
+}
+
+
+.line {
+  align-items: center;
+  margin: 1em -1em;
+  
+  &:before,
+  &:after {
+    height: 1px;
+    margin: 0 1em;
+  }
+}
+	.glow {
+    &:before,
+    &:after {
+      height: 6px;
+      -webkit-filter: blur(5px);
+      border-radius: 5px;
+    }
+    
+    &:before {
+      background: linear-gradient(to right, blue, hotpink);
+    }
+    
+    &:after {
+      background: linear-gradient(to left, blue, hotpink);
+    }
+  }
+
+
+
+
+</style>
+<body>
+    <h2 class="divider line glow" contenteditable>Light Saber</h2>
+</body>
+</html>
