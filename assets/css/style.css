@@ -1569,7 +1569,6 @@ input::placeholder {
 .header-area {
      /* background-image: linear-gradient(to right,#FD5F00, #00204A); */
 
-background-color:#ffefe6;
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
 }
@@ -3821,7 +3820,6 @@ background-color:#ffefe6;
       -ms-flex-pack: center;
           justify-content: center;
   width: 80px;
-  border-left: 1px solid #eee;
 }
 
 /*----------  header overlay menu  ----------*/
